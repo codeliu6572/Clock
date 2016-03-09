@@ -15,6 +15,10 @@
 		688AA8571C52192500B96450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 688AA8551C52192500B96450 /* LaunchScreen.storyboard */; };
 		688AA8621C52192500B96450 /* TimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 688AA8611C52192500B96450 /* TimeTests.m */; };
 		688AA86D1C52192500B96450 /* TimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 688AA86C1C52192500B96450 /* TimeUITests.m */; };
+		688AA87E1C52193800B96450 /* hour.png in Resources */ = {isa = PBXBuildFile; fileRef = 688AA87A1C52193800B96450 /* hour.png */; };
+		688AA87F1C52193800B96450 /* minute.png in Resources */ = {isa = PBXBuildFile; fileRef = 688AA87B1C52193800B96450 /* minute.png */; };
+		688AA8801C52193800B96450 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 688AA87C1C52193800B96450 /* second.png */; };
+		688AA8811C52193800B96450 /* time.png in Resources */ = {isa = PBXBuildFile; fileRef = 688AA87D1C52193800B96450 /* time.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		688AA8681C52192500B96450 /* TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		688AA86C1C52192500B96450 /* TimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeUITests.m; sourceTree = "<group>"; };
 		688AA86E1C52192500B96450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		688AA87A1C52193800B96450 /* hour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hour.png; sourceTree = "<group>"; };
+		688AA87B1C52193800B96450 /* minute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minute.png; sourceTree = "<group>"; };
+		688AA87C1C52193800B96450 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		688AA87D1C52193800B96450 /* time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,10 @@
 				688AA84B1C52192500B96450 /* AppDelegate.m */,
 				688AA84D1C52192500B96450 /* ViewController.h */,
 				688AA84E1C52192500B96450 /* ViewController.m */,
+				688AA87A1C52193800B96450 /* hour.png */,
+				688AA87B1C52193800B96450 /* minute.png */,
+				688AA87C1C52193800B96450 /* second.png */,
+				688AA87D1C52193800B96450 /* time.png */,
 				688AA8501C52192500B96450 /* Main.storyboard */,
 				688AA8531C52192500B96450 /* Assets.xcassets */,
 				688AA8551C52192500B96450 /* LaunchScreen.storyboard */,
@@ -243,8 +255,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688AA87F1C52193800B96450 /* minute.png in Resources */,
 				688AA8571C52192500B96450 /* LaunchScreen.storyboard in Resources */,
+				688AA87E1C52193800B96450 /* hour.png in Resources */,
+				688AA8801C52193800B96450 /* second.png in Resources */,
 				688AA8541C52192500B96450 /* Assets.xcassets in Resources */,
+				688AA8811C52193800B96450 /* time.png in Resources */,
 				688AA8521C52192500B96450 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
